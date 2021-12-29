@@ -56,11 +56,11 @@ figure {
   color: var(--white);
   text-align: left;
   margin-bottom: 2px;
-}
 
-.card__title:hover {
-  color: var(--Cyan);
-  cursor: pointer;
+  &:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+  }
 }
 
 .card__p {
@@ -75,7 +75,7 @@ figure {
 }
 
 @media screen and (height: 812px) {
-  p {
+  .card__p {
     font-size: 18px;
   }
   .card {

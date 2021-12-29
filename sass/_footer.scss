@@ -16,10 +16,10 @@
 
 .card__p-user {
   color: var(--SoftBlue);
-}
 
-strong {
-  color: var(--white)
+  & strong {
+    color: var(--white)
+  }
 }
 
 strong:hover {

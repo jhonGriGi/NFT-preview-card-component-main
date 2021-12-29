@@ -77,7 +77,6 @@ figure {
   text-align: left;
   margin-bottom: 2px;
 }
-
 .card__title:hover {
   color: var(--Cyan);
   cursor: pointer;
@@ -94,7 +93,7 @@ figure {
   }
 }
 @media screen and (height: 812px) {
-  p {
+  .card__p {
     font-size: 18px;
   }
 
@@ -259,8 +258,7 @@ figure {
 .card__p-user {
   color: var(--SoftBlue);
 }
-
-strong {
+.card__p-user strong {
   color: var(--white);
 }
 
