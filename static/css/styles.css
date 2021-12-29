@@ -41,20 +41,35 @@ body {
   background: var(--VeryDarkBlue2);
 }
 
-.mascara {
-  z-index: 5;
+figure {
+  position: relative;
   width: 100%;
-}
-.mascara:hover {
-  z-index: 5;
-  background: red;
+  height: 20%;
+  margin: auto;
   border-radius: 0.9em;
-  background-image: url(../images/icon-view.svg) no-repeat center;
+  overflow: hidden;
 }
 
 .card__img {
   width: 100%;
+  height: 100%;
   border-radius: 0.9em;
+}
+
+.mascara {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 247, 0.4);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.mascara:hover {
+  opacity: 1;
 }
 
 .card__title {
